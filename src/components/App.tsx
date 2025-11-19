@@ -6,9 +6,9 @@ export default function App() {
     <>
       <h1>Products</h1>
 
-      <Product />
-      <Product />
-      <Product />
+      <Product name="Tacos With Lime" />
+      <Product name="Fries and Burger" />
+      <Product name="Delicious Pizza" />
     </>
   );
 }
