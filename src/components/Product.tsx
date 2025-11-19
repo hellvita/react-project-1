@@ -4,12 +4,12 @@ interface ProductProps {
   price: number;
 }
 
-export default function Product(props: ProductProps) {
+export default function Product({ name, imgUrl, price }: ProductProps) {
   return (
     <div>
-      <h2>{props.name}</h2>
-      <img src={props.imgUrl} alt={props.name} width={640} />
-      <p>Price: {props.price} credits</p>
+      <h2>{name}</h2>
+      <img src={imgUrl} alt={name} width={640} />
+      <p>Price: {price} credits</p>
     </div>
   );
 }
