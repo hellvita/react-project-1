@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+/* .grid-item:hover {
+  cursor: pointer;
+} */
+
 .grid-item.grid-item--active {
   background-color: #7cc6ad;
 }
