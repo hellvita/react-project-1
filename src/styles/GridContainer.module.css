@@ -1,0 +1,5 @@
+.grid-container {
+  display: grid;
+  width: 309px;
+  aspect-ratio: 1;
+}

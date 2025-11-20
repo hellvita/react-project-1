@@ -1,0 +1,12 @@
+.game-area {
+  display: flex;
+  flex-wrap: wrap;
+  width: 309px;
+}
+
+.block {
+  background-color: #86a198;
+  width: 99px;
+  aspect-ratio: 1;
+  border: 2px solid #242424;
+}
